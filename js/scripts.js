@@ -35,6 +35,8 @@ $(document).ready(function() {
       result = multiply(number1, number2);
     } else if (operator === "divide") {
       result = divide(number1, number2);
+    } else if (operator === "remainder") {
+      result = remainder(number1, number2)
     }
     $("#output").text(result);
   });
